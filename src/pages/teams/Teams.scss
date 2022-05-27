@@ -1,0 +1,80 @@
+.card_team {
+  border: none !important;
+  margin: 10px auto !important;
+
+  &:hover {
+    border: none !important;
+    box-shadow: none !important;
+    transform: scale(0.9999, 0.9999);
+  }
+
+}
+
+.card_teams {
+  position: relative !important;
+
+  .absolute {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px;
+  }
+}
+
+
+.team_title {
+  font-size: 35px;
+  font-weight: 300;
+  font-family: Poppins;
+  color: black;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .team_slice_image {
+    display: none;
+  }
+
+  .card_team {
+    p {
+      font-size: 18px;
+    }
+
+    img {
+      width: 70%;
+    }
+  }
+}
+
+.uploadBox{
+  display: flex;
+  width: 100%;
+}
+
+.first{
+  padding: 10px 5px 10px 0;
+}
+
+.second{
+  padding: 10px 0;
+  width: 200px;
+  height:200px;
+img{
+  width: 200px;
+  height: 200px;
+}
+}
+
+.settings_btn{
+  background: #19A49C;
+  padding: 8px 15px;
+  border: none;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: white;
+
+  &:hover {
+    background: #37daab;
+    transition: 0.4s;
+  }
+}
